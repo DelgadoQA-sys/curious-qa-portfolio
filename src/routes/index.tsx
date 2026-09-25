@@ -119,8 +119,8 @@ function Index() {
         <div className="grid-lines absolute inset-x-0 top-0 h-[820px] opacity-60" />
         <div className="absolute -top-32 -left-28 h-[26rem] w-[26rem] rounded-full bg-pass/10 blur-[120px]" />
         <div className="absolute top-[38%] -right-24 h-[22rem] w-[22rem] rounded-full bg-rim/10 blur-[120px]" />
-        <div className="drift-a absolute top-36 right-[10%] hidden h-40 w-60 rounded-3xl bg-surface pane lg:block" />
-        <div className="drift-b absolute bottom-28 left-[6%] hidden h-28 w-48 rounded-3xl bg-rim/5 pane lg:block" />
+        <div className="drift-a absolute top-36 right-[10%] hidden h-40 w-60 rounded-3xl pane lg:block" />
+        <div className="drift-b absolute bottom-28 left-[6%] hidden h-28 w-48 rounded-3xl border-rim/25 pane lg:block" />
       </div>
 
       <header className="no-print relative z-10 mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
@@ -293,7 +293,7 @@ function Index() {
         </section>
 
         <section id="contato" data-reveal className="py-10">
-          <div className="pane-strong rounded-3xl border-hairline p-8 text-center md:p-12">
+          <div className="pane-strong relative overflow-hidden rounded-3xl p-8 text-center md:p-12">
             <div
               aria-hidden
               className="pointer-events-none absolute inset-0 rounded-3xl"
