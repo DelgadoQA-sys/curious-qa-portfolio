@@ -120,7 +120,6 @@ function Index() {
         <div className="absolute -top-32 -left-28 h-[26rem] w-[26rem] rounded-full bg-pass/10 blur-[120px]" />
         <div className="absolute top-[38%] -right-24 h-[22rem] w-[22rem] rounded-full bg-rim/10 blur-[120px]" />
         <div className="drift-a absolute top-36 right-[10%] hidden h-40 w-60 rounded-3xl pane lg:block" />
-        <div className="drift-b absolute bottom-28 left-[6%] hidden h-28 w-48 rounded-3xl border-rim/25 pane lg:block" />
       </div>
 
       <header className="no-print relative z-10 mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
@@ -236,7 +235,7 @@ function Index() {
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground text-pretty">
                 {metric.label}
               </p>
-              <p className="mt-4 font-mono text-[11px] tracking-wide text-muted-foreground/70">
+              <p className="mt-4 font-mono text-[11px] tracking-wide text-muted-foreground">
                 {metric.meta}
               </p>
             </div>
@@ -284,7 +283,7 @@ function Index() {
                     </span>
                   ))}
                 </div>
-                <p className="mt-4 border-t border-hairline pt-3 font-mono text-[11px] text-muted-foreground/70">
+                <p className="mt-4 border-t border-hairline pt-3 font-mono text-[11px] text-muted-foreground">
                   {project.meta}
                 </p>
               </article>
